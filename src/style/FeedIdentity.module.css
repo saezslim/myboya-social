@@ -1,0 +1,49 @@
+.feed-identity{
+  background: #242424;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 8px 0px #000;
+
+  max-width: 400px;
+}
+.feed-identity-profile, .user-badge{
+  width: 100%;
+  padding: 1.2rem 1.6rem;
+}
+.user-name{
+  font-size: 1rem;
+  font-weight: bold;
+}
+.user-name{
+  padding-top: 2.75rem;
+
+  cursor: pointer;
+}
+.user-name:hover{
+  text-decoration: underline;
+}
+.user-badge-anchor{
+  width: 100%;
+  padding: .3rem 1.6rem;
+  background: transparent;
+  transition: background .3s linear;
+  cursor: pointer;
+}
+.user-badge__badge{
+  font-size: .75rem;
+  font-weight: bold;
+  margin: .2em;
+}
+.user-title, .user-badge__progress{
+  margin: 0;
+  font-size: .75rem;
+  color: #bbb;
+}
+.user-badge{
+  padding: .9rem 0rem;
+  border-top: 1px solid #bbb;
+  background: transparent;
+  
+}
+.user-badge-anchor:hover{
+  background: rgba(255 255 255 / .3);
+}
